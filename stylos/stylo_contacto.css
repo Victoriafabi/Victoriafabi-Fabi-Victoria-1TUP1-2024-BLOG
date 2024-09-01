@@ -1,0 +1,76 @@
+/* Estilos generales para el formulario de contacto */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #561D08;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #6b3a2b;
+}
+
+.contact-form .message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilos para mensajes de éxito o error */
+.contact-form .success,
+.contact-form .error {
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.contact-form .success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.contact-form .error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
